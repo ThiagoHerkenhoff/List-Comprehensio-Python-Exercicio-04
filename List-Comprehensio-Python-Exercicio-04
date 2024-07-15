@@ -1,0 +1,14 @@
+"""
+Objetivo: Criar uma lista de palavras todas em maiúsculas a partir de uma lista fornecida.
+
+Instruções:
+
+    Dada uma lista de palavras, usar list comprehension para criar uma nova lista com todas as palavras convertidas para maiúsculas.
+    Exibir a lista resultante.
+"""
+
+palavras = ["python", "é", "uma", "linguagem", "poderosa"]
+
+maiuscula = [palavra.upper() for palavra in palavras]
+
+print(maiuscula)
